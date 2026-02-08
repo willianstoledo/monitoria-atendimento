@@ -2,7 +2,7 @@
 # exit on error
 set -o errexit
 
-pip install --upgrade pip
-pip install -r requirements.txt
+python3.11 -m pip install --upgrade pip
+python3.11 -m pip install -r requirements.txt
 
 # Database initialization will be done manually or via migration
